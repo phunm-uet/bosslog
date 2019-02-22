@@ -1,28 +1,51 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Loader :loading="loading" />
+    <Header />
+    <HeroUnit />
+    <VideoSection />
+    <Intro/>
+    <Pricing />
+    <FAQ />
+    <Testimonials />
+    <CTA />
+    <Footer />
+    <FooterBottom/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Loader from './components/Loader';
+import Header from './components/Header';
+import HeroUnit from './components/HeroUnit';
+import VideoSection from './components/VideoSection';
+import Intro from './components/Intro';
+import Pricing from './components/Pricing';
+import FAQ from './components/FAQ';
+import Testimonials from './components/Testimonials';
+import CTA from './components/CTA';
+import Footer from './components/Footer';
+import FooterBottom from './components/FooterBottom';
 export default {
   name: 'app',
+  data(){
+    return{
+      loading: true,
+    }
+  },
   components: {
-    HelloWorld
+    Loader,Header,HeroUnit,VideoSection,Intro,Pricing,FAQ,Testimonials,CTA,Footer,FooterBottom
+  },
+  beforeMount(){
+    setTimeout(() => {
+      this.loading = false
+    }, 500)
+  },
+  mounted(){
+    new WOW().init();
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>

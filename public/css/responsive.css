@@ -1,0 +1,387 @@
+@media only screen and (max-width:3840px) and (min-width:2561px){
+    .pricing-wrapper::before {
+    content: "";
+    background-image: url(../img/vector-shape-pricing.png);
+    position: absolute;
+    width: 100%;
+    height: 201px;
+    margin-top: -159px;
+    left: 0px;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+    
+.footer-wrapper::before {
+    content: "";
+    background-image: url(../img/top-waves-footer.png);
+    position: absolute;
+    width: 100%;
+    height: 212px;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    margin-top: -224px;
+}
+}
+@media only screen and (max-width:2560px) and (min-width:1299px){
+    .footer-wrapper::before {
+    content: "";
+    background-image: url(../img/top-waves-footer.png);
+    position: absolute;
+    width: 100%;
+    height: 202px;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    margin-top: -222px;
+}
+    .pricing-wrapper::before {
+    content: "";
+    background-image: url(../img/vector-shape-pricing.png);
+    position: absolute;
+    width: 100%;
+    height: 191px;
+    margin-top: -155px;
+    left: 0px;
+    background-size: cover;
+    background-repeat: repeat-x;
+        background-position: center;}
+}
+@media only screen and (max-width:1299px) and (min-width:1199px){
+
+}
+@media only screen and (max-width:1199px) and (min-width:993px){
+    
+    ul.icons li {
+    padding: 0px 20px;
+}
+}
+@media only screen and (max-width:992px) and (min-width:768px){
+    
+        .transparent-menu .show {background: #101010f7;}
+    h3.slide-title {
+    font-size: 24px;
+    margin-top: -50px;
+}
+    .video-preview {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+    
+    h3.slide-title {
+    font-size: 43px;
+}
+
+span.navbar-icon {
+    margin-left: 438px;
+}
+
+.video-preview::before {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+ul.table li {
+    padding: 20px 90px;
+}
+
+.table-wrapper {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: -160px;
+}
+
+.pricing-wrapper {padding-bottom: 0px;}
+
+.faq-box {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.faq-box {
+    padding: 35px 50px;
+}
+
+span.qm {position: absolute;margin-right: 175px;margin-top: 22px;}
+    
+        .footer-wrapper {
+    padding: 70px 0px 25px 0px;
+    text-align: center;
+}
+
+ul.social-icons {
+    float: none;
+}
+
+ul.social-icons li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.footer-wrapper p {
+    padding: 0px;
+}
+
+ul.footer-links {
+    padding: 0px;
+}
+    
+    ul.social-icons {
+    padding: 0px;
+}
+
+    .pricing-wrapper::before{
+        height: 150px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 451px) {
+    
+    
+       .transparent-menu .show {background: #101010f7;}
+    h3.slide-title {
+    font-size: 24px;
+    margin-top: -50px;
+}
+    span.navbar-icon {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+    h3.slide-title {
+    font-size: 32px;
+}
+
+ul.icons li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+p.text-intro-custom {
+    padding: 0;
+}
+
+.table-wrapper {
+    margin-bottom: 180px;
+}
+
+.pricing-wrapper {
+    padding: 0px;
+}
+
+.faq-box {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+span.qm {
+    right: 65px;
+    margin-top: 26px;
+}
+
+.test-wrapper {
+    display: block;
+}
+
+.test-wrapper .user-img img {
+    margin: 0 auto;
+}
+
+.user-info {
+    margin: 0px;
+}
+
+.user-info h3.msg {
+    text-align: center;
+    padding: 0px;
+}
+
+.test-wrapper .user-info img.colon {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+p.user-name {
+    text-align: center;
+}
+        .footer-wrapper {
+    padding: 70px 0px 25px 0px;
+    text-align: center;
+}
+
+ul.social-icons {
+    float: none;
+}
+
+ul.social-icons li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.footer-wrapper p {
+    padding: 0px 20px;
+}
+
+ul.footer-links {
+    padding: 0px;
+}
+    
+    ul.social-icons {
+    padding: 0px;
+}
+    p.slide-text {
+    padding: 0px;
+}
+    .pricing-wrapper::before{
+        height:155px;
+    }
+}
+@media only screen and (max-width: 450px) and (min-width: 150px) {
+    
+    .transparent-menu .show {background: #101010f7;}
+    h3.slide-title {
+    font-size: 24px;
+    margin-top: -50px;
+}
+
+span.navbar-icon {
+    margin-left: 120px;
+}
+
+p.slide-text {
+    padding: 0px;
+    display: none;
+}
+
+button.btn.btn-bosslog-hero.white {
+    margin-top: 10px;
+}
+
+.video-preview {width: 275px;margin-top: -210px;height: 250px;position: absolute;left: 65px;}
+
+
+ul.icons li {
+    padding: 16px 0px;
+    display: block;
+}
+
+p.text-intro-custom {
+    padding: 0px 20px;
+    margin-top: 34px;
+}
+
+ul.table li {
+    padding: 0px;
+}
+
+.table-wrapper {
+    width: 300px;
+    margin: 10px auto;
+    margin-top: -150px;
+    margin-bottom: 170px;
+}
+
+.pricing-wrapper {
+    padding: 0px;
+}
+    
+    .custom-margin {
+    padding: 0px;
+}
+
+ul.table li {
+    padding: 28px;
+}
+
+.faq-box {
+    margin: 0px auto 10px auto;
+    width: 300px;
+}
+
+span.qm {
+    margin-top: 25px;
+    margin-right: 70px;
+}
+
+.test-wrapper.user-img {margin: 0 auto;}
+
+.user-img {
+}
+
+.test-wrapper {
+    display: block;
+}
+
+.test-wrapper .user-img img {margin: 0 auto;}
+
+.user-info h3.msg {
+    padding: 0px 20px;
+}
+
+.user-info {
+    margin: 0px;
+    text-align: center;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.test-wrapper .user-info img.colon {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+    
+    .footer-wrapper {
+    padding: 70px 0px 25px 0px;
+    text-align: center;
+}
+
+ul.social-icons {
+    float: none;
+}
+
+ul.social-icons li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.footer-wrapper p {
+    padding: 0px 20px;
+}
+
+ul.footer-links {
+    padding: 0px;
+}
+    
+    ul.social-icons {
+    padding: 0px;
+}
+    
+    .video-preview::before {
+    height: 250px;
+}
+
+
+.intro h3 {
+    margin-top: 70px;
+    padding: 0px 30px;
+}
+   
+}
